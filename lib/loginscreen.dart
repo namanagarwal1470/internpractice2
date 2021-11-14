@@ -19,7 +19,6 @@ class _homepageState extends State<homepage> {
   final otpnumber = TextEditingController();
   final currentstate = Mobileverificationstate.show_mobile_form_state;
 
-
   getmobileform(context) {
     return Container(
       height: double.infinity,
@@ -35,7 +34,7 @@ class _homepageState extends State<homepage> {
               margin: EdgeInsets.all(20),
               child: Center(
                 child: Text(
-                  "Hello! Champion",
+                  "Hello! Champio",
                   style: TextStyle(color: Colors.white, fontSize: 35),
                 ),
               )),
